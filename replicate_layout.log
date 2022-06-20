@@ -1,0 +1,51 @@
+06-20 23:16:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 295:Plugin executed on: 'win32'
+06-20 23:16:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 296:Plugin executed with python version: '3.9.6 (default, Sep 27 2021, 21:15:11) [MSC v.1929 64 bit (AMD64)]'
+06-20 23:16:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 297:KiCad build version: (6.0.0)
+06-20 23:16:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 298:Plugin version: 1.1.2
+06-20 23:16:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 299:Frame repr: <wx._core.Frame object at 0x000001A80F305790>
+06-20 23:16:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 323:Preparing replicator with J801 as a reference
+06-20 23:16:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 98:getting a list of all footprints on board
+06-20 23:16:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 351:source anchor footprint is 'J801'
+Located on: ['motor']
+With filenames: ['external_driver.kicad_sch']
+With sheet_id:['motor']
+06-20 23:16:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 358:Corresponding footprints are 
+[('J801', ['motor']), ('J701', ['solenoid'])]
+06-20 23:16:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 370:Showing dialog
+06-20 23:16:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 376:Toolbar position: wx.Point(1883, 80)
+06-20 23:16:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 382:Dialog position: wx.Point(1519, 80)
+06-20 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:constructing a list of sheets suitable for replication on level:'motor', file:'external_driver.kicad_sch'
+06-20 23:16:52 com_github_MitjaNemec_ReplicateLayout.replicate_layout 372:suitable sheets are:[['solenoid']]
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:constructing a list of sheets suitable for replication on level:'motor', file:'external_driver.kicad_sch'
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 372:suitable sheets are:[['solenoid']]
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 145:Replicating layout
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 146:Starting replication of sheets: [['solenoid']]
+on level: ['motor']
+with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False, by_group=False
+06-20 23:16:55 root 235:updating GUI message: 'Preparing for replication'
+06-20 23:16:55 root 240:updating GUI with: 0
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 215:Getting the list of source footprints
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 230:Getting the list of all the remaining footprints
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 235:Getting nets local to source footprints
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 238:Getting source bounding box
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 242:Getting source tracks
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 257:Getting source zones
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 266:Getting source text items
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 275:Getting source drawing items
+06-20 23:16:55 root 235:updating GUI message: 'Replicating footprints'
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 669:Replicating footprints
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 675:Replicating footprints on sheet ['solenoid']
+06-20 23:16:55 root 235:updating GUI message: 'Replicating tracks'
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Replicating tracks
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 841:Replicating tracks on sheet ['solenoid']
+06-20 23:16:55 root 235:updating GUI message: 'Replicating zones'
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 893:Replicating zones
+06-20 23:16:55 root 240:updating GUI with: 0
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 900:Replicating zones on sheet ['solenoid']
+06-20 23:16:55 root 235:updating GUI message: 'Replicating text'
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 963:Replicating text
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 970:Replicating text on sheet ['solenoid']
+06-20 23:16:55 root 235:updating GUI message: 'Replicating drawings'
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1003:Replicating drawings
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating drawings on sheet ['solenoid']
+06-20 23:16:55 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 169:Replication complete

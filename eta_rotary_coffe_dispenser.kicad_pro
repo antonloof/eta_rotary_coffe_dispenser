@@ -367,6 +367,30 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "HighPower",
+        "nets": [
+          "+12V",
+          "/VIN",
+          "/VIN_SW",
+          "/motor/EXT_OUT",
+          "/solenoid/EXT_OUT"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
       }
     ],
     "meta": {
@@ -447,6 +471,22 @@
     [
       "25763a60-385d-4f9d-9ab3-6bb1b49a61c8",
       "cpu"
+    ],
+    [
+      "6b11f5d6-8010-4cf6-a8fb-81c1bbc2a4a3",
+      "solenoid"
+    ],
+    [
+      "c5500a26-84c0-4fe5-9ba6-0fa8af409b7c",
+      "motor"
+    ],
+    [
+      "90b999c7-8c1b-408e-9716-2b0bb220038b",
+      "water_rotary"
+    ],
+    [
+      "4b0c2a65-b1f2-4fe3-b261-528044a12b6f",
+      "coffee_rotary"
     ]
   ],
   "text_variables": {}
